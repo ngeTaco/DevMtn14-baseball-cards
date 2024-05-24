@@ -1,0 +1,23 @@
+#root {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+div.card {
+  border-radius: 3px;
+  border: 3px solid black;
+  margin: 2em;
+  padding: 1em;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  min-width: 200px;
+  min-height: 320px;
+}
+
+body {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+

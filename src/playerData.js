@@ -1,0 +1,68 @@
+const playerData = [
+  {
+    name: 'Babe Ruth',
+    team: 'Yankees',
+    position: 'Right Field',
+    stats: { 'Batting Avg': '.342', 'Home Runs': 714 },
+    imgUrl: '/img/babe-ruth.png',
+    cardId: 1,
+  },
+  {
+    name: 'Willie Mays',
+    team: 'Giants',
+    position: 'Center Field',
+    stats: { 'Home Runs': 660, 'Gold Glove Awards': 12 },
+    imgUrl: '/img/willie-mays.jpeg',
+    cardId: 2,
+  },
+  {
+    name: 'Jackie Robinson',
+    team: 'Dodgers',
+    position: 'Second Base',
+    stats: { 'Batting Avg': '.313', 'Home Runs': 141 },
+    imgUrl: '/img/jackie-robinson.png',
+    cardId: 3,
+  },
+  {
+    name: 'Hank Aaron',
+    team: 'Braves',
+    position: 'Right Field',
+    stats: { 'Batting Avg': '.305', 'Home Runs': 755 },
+    imgUrl: '/img/hank-aaron.jpeg',
+    cardId: 4,
+  },
+  {
+    name: 'Sandy Koufax',
+    team: 'Dodgers',
+    position: 'Pitcher',
+    stats: { 'Earned Run Avg': '2.76', 'World Series MVP': 2 },
+    imgUrl: '/img/sandy-koufax.jpeg',
+    cardId: 5,
+  },
+  {
+    name: 'Ted Williams',
+    team: 'Red Sox',
+    position: 'Left Field',
+    stats: { 'Batting Avg': '.344', 'Home Runs': 521 },
+    imgUrl: '/img/ted-williams.png',
+    cardId: 6,
+  },
+  {
+    name: 'Nolan Ryan',
+    team: 'Angels',
+    position: 'Pitcher',
+    stats: { Strikeouts: 5714, 'No-Hitters': 7 },
+    imgUrl: '/img/nolan-ryan.png',
+    cardId: 7,
+  },
+  {
+    name: 'Randy Johnson',
+    team: 'Diamondbacks',
+    position: 'Pitcher',
+    stats: { Strikeouts: 4875, 'Cy Young Awards': 5 },
+    imgUrl: '/img/randy-johnson.png',
+    cardId: 8,
+  },
+];
+
+export default playerData;
