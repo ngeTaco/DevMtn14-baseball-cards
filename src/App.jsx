@@ -1,12 +1,20 @@
 import playerData from './playerData.js';
 
 function BaseballCard(props) {
+  // return (
+  //   <div className="card">
+  //     <h2>{props.name}</h2>
+  //     <img src={props.imgUrl} alt={props.name}/>
+  //   </div>
+  // );
+  const statsDisplay = [];
+  for stat 
   return (
-    <div className="card">
+    <div className='card'>
       <h2>{props.name}</h2>
-      <img src={props.imgUrl} alt={props.name}/>
+      <p>{props.position}</p>
     </div>
-  );
+  )
 }
 
 function App() {
