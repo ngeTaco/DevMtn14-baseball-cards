@@ -7,14 +7,19 @@ function BaseballCard(props) {
   //     <img src={props.imgUrl} alt={props.name}/>
   //   </div>
   // );
-  const statsDisplay = [];
-  for stat 
+  const statsDisplay = Object.entries(props.stats).map(([statName, statValue]) => (
+    <p key={statName}>
+      {statName}: {statValue}
+    </p>
+  ));
   return (
     <div className='card'>
       <h2>{props.name}</h2>
-      <p>{props.position}</p>
+      <p>Team: {props.team}</p>
+      <p>Position: {props.position}</p>
+      {statsDisplay}
     </div>
-  )
+  );
 }
 
 function App() {
