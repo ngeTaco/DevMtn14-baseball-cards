@@ -4,9 +4,13 @@ import { useState } from 'react';
 function BaseballCard(props) {
   const [showPicture, setShowPicture] = useState(true);
 
+  const toggleCard = () => {
+    setShowPicture(!showPicture);
+  };
+
   if (showPicture) {
   return (
-    <div className="card">
+    <div className="card" onClick={toggleCard}>
       <h2>{props.name}</h2>
       <img src={props.imgUrl} alt={props.name}/>
     </div>
@@ -18,7 +22,7 @@ function BaseballCard(props) {
     </p>
   ));
   return (
-    <div className='card'>
+    <div className='card' onClick={toggleCard}>
       <h2>{props.name}</h2>
       <p>Team: {props.team}</p>
       <p>Position: {props.position}</p>
